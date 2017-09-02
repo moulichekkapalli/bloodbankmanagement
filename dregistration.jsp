@@ -11,7 +11,7 @@
 	System.out.println(cin);
    Class.forName("oracle.jdbc.driver.OracleDriver");  
 Connection con=DriverManager.getConnection(  
-"jdbc:oracle:thin:@localhost:1521:xe","sanath","it");  
+"jdbc:oracle:thin:@localhost:1521:xe","mouli","it");  
     Statement st = con.createStatement();
     //ResultSet rs;
     int i = st.executeUpdate("insert into DONAR values ('" + cin + "','" + cname + "','" + din + "','" + roc + "','" + regno + "','" + coc + "','" + email + "','" + pass + "')");
